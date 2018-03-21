@@ -193,29 +193,11 @@ max_line_gap = 150
 8. Define parameters for weighted image and run it.
 9. Return weighted image.
 
-### Reflection
+### Shortcomings
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
+One potential shortcoming would be when car go through curves and with shadows.
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### Improvements to your pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+I think a possible improvement would be to convert images to HSV or another color space to get rid of shadows or strong color changes
